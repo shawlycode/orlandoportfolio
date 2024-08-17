@@ -11,8 +11,17 @@
   border-radius: 0.9rem;
   overflow: hidden;
 }
+.about__img img:hover {
+  transition: var(--transition);
+}
 .about__content .read-more__btn {
   margin-top: 1rem;
+}
+.about__content p {
+  font-size: 20px;
+  font-family: Righteous;
+  line-height: 1.3;
+  padding: 20px 0;
 }
 @media screen and (max-width: 600px) {
   .about__container {
