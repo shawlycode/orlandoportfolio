@@ -1,13 +1,14 @@
 nav {
   width: 100vw;
-  height: 4rem;
+  height: 4.8rem;
   background: var(--primary-color);
   display: grid;
   place-items: center;
   position: fixed;
+  padding: 20px;
   top: 0;
   left: 0;
-  z-index: 10rem;
+  z-index: 99;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -64,7 +65,7 @@ nav {
 }
 
 .app__navbar-smallScreen-links li:hover {
-  color: var(--color-white);
+  color: var(--dark-teal);
 }
 
 .app__navbar-smallScreen_overlay .overlay__close {
@@ -87,10 +88,11 @@ p {
   display: flex;
   gap: 3.5rem;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  font-family: Righteous;
 }
-.nav__links:hover {
-  color: var(--secondary-color);
+.nav__links li:hover {
+  color: var(--bg-color);
   transition: var(--transition);
   cursor: pointer;
 }

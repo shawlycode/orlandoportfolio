@@ -23,8 +23,8 @@ body::-webkit-scrollbar {
 }
 /* root */
 :root {
-  --bg-color: #2a2a2a;
-  --second-bg-color: #202020;
+  --bg-color: #050505f5;
+  --second-bg-color: #050202;
   --text-color: #e3d9d9;
   --main-color: #f8622c;
   --bg2-color: 202020;

@@ -15,11 +15,6 @@ const Contact = () => {
         data-form-id="75599"
       ></div>
       <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-      <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-      <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-
-
-
     </section>
   )
 }

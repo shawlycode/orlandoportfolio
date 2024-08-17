@@ -4,6 +4,7 @@
   align-items: center;
   gap: 2.5rem;
   margin-top: 50px;
+  z-index: -1;
 }
 .row {
   /* width: 400px; */
