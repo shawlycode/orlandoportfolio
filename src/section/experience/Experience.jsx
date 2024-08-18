@@ -5,6 +5,7 @@ import { TbBuildingWarehouse } from "react-icons/tb";
 import { SiCyberdefenders } from "react-icons/si";
 import { TbMapPin2 } from "react-icons/tb";
 import { MdSavings } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa6";
 
 import './experience.css'
 
@@ -15,6 +16,17 @@ const Experience = () => {
       <h5>Experience</h5>
       <h2>My <span>Experience</span></h2>
       <div className="container achievements__container">
+        <div className="achievements__box">
+          <div className="achievements-icon">
+            <FaLaptopCode />
+          </div>
+          <div className="achieve-content">
+            <h5>Backend Developer- Corextreme | Checcka App</h5>
+            <p>
+              Nodejs | Express Js | MongoDB | SupaBase
+            </p>
+          </div>
+        </div>
         <div className="achievements__box">
           <div className="achievements-icon">
             <FaCode />

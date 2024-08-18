@@ -43,7 +43,7 @@ const Achievements = () => {
             </p>
           </div>
         </div>
-        <div className="achievements__box">
+        {/* <div className="achievements__box">
           <div className="achievements-icon">
             < VscGraphLine />
           </div>
@@ -53,7 +53,7 @@ const Achievements = () => {
               As an entrepreneur, I grew Connect Solutions Ghana from a startup to a force in the software development industry in Ghana.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section >
   )
