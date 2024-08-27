@@ -1,9 +1,28 @@
 footer {
   background-color: var(--primary-color);
-  padding: 1.4rem;
+  padding: 1em;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
-footer h3 {
+footer h4 {
   text-align: center;
+  color: black;
 }
+.footer__socials {
+  display: flex;
+  margin-left: 10px;
+}
+.footer__socials a {
+  align-items: center;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  color: black;
+  /* color: var(--primary-color); */
+  transition: var(--transition);
+}
+/* .footer__socials a:hover {
+  color: var(--text-color);
+} */

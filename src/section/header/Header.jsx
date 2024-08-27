@@ -33,7 +33,7 @@ const Header = () => {
           <p className="header-text"> A dedicated software Developer with a strong foundation in modern web technologies and specialize in creating dynamic, responsive, and user-friendly web applications, with a passion for delivering high-quality and innovative solutions. Let's build something great together.</p>
           <div className="btn__container">
             <button className="btn"><a href="#contact">Hire Me</a></button>
-            <button className="btn btn__white">Let's Collaborate</button>
+            <button className="btn btn__white"><a href="#contact">Let's Collaborate</a></button>
           </div>
         </div>
         <div className="header__right-profile">

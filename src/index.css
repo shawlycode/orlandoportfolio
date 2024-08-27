@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   font-size: 0.9rem;
   color: #e3d9d9;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   display: none;

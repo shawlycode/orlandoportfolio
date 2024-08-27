@@ -1,20 +1,57 @@
+import { useForm, ValidationError } from '@formspree/react'
+
 import './contact.css'
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xblrwjey");
+  if (state.succeeded) {
+    return <div className='success'>
+      <h3>Thank you.I appreciate your message. Will respond ASAP.</h3>
+    </div>;
+  }
   return (
-    <section id="contact"><h2>Contact</h2>
+    <section id="contact">
+      <h5> Contact</h5>
+      <h2>Let's <span>Connect</span></h2>
 
-
-      <div
-        class="visme_d"
-        data-title="Contact Form"
-        data-url="6x0zzzr7-contact-form?fullPage=true"
-        data-domain="forms"
-        data-full-page="false"
-        data-min-height="100vh"
-        data-form-id="75599"
-      ></div>
-      <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+      <div className="form_container">
+        <form onSubmit={handleSubmit} action='https://formspree.io/f/xblrwjey'>
+          <label htmlFor="email">
+            Email Address
+          </label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+          />
+          <label htmlFor="text">
+            Company Name
+          </label>
+          <input
+            id="company"
+            type="text"
+            name="name"
+          />
+          <ValidationError
+            prefix="Email"
+            field="email"
+            errors={state.errors}
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder='Enter your message....'
+          />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <button type="submit" disabled={state.submitting} className='btn'>
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   )
 }

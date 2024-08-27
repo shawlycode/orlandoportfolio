@@ -1,1 +1,1 @@
-<script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
