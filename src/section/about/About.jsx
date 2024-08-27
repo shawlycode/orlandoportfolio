@@ -9,15 +9,7 @@ const About = () => {
 
 
 
-  // const onButtonClick = () => {
-  //   const pdfUrl = "../../assets/orlandocv.pdf";
-  //   const link = document.createElement("a");
-  //   link.href = pdfUrl;
-  //   link.download = "orlandocv.pdf"; // specify the filename
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+
   return (
     <section id="about">
 
@@ -31,7 +23,7 @@ const About = () => {
 
           </p>
           <button className=" btn read-more__btn" >
-            <a href={myPDF} download="../../assets/orlandocv.pdf"> Download Resume </a>
+            <a href={myPDF} download="../../assets/orlandoResume.pdf"> Download Resume </a>
           </button>
         </div>
 
