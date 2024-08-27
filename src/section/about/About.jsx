@@ -1,6 +1,6 @@
 import './about.css'
 import profile from '../../assets/proo.png'
-import myPDF from '../../assets/orlandocv.pdf'
+import myPDF from '../../assets/orlandoResume.pdf'
 
 
 
